@@ -99,7 +99,7 @@ logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Journaling, paper goods, and poetic zines" # Site description and default description, also used in jekyll-seo-tag
 url: "https://mossandmoonstationery.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
+# repo: "https://github.com/daviddarnes/alembic"
 email: "mynah.writes@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
@@ -138,7 +138,7 @@ navigation_header:
 #   url: /search/
 
 
-navigation_footer:
+# navigation_footer:
 # - title: Created by David Darnes
 #   url: https://darn.es
 

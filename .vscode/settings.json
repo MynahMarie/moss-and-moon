@@ -1,0 +1,6 @@
+{
+  "editor.colorDecorators": true,
+  "[scss]": {
+    "editor.colorDecorators": true
+  }
+}
