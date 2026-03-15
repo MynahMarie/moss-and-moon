@@ -15,6 +15,6 @@ At its heart, Moss & Moon is about ritual: the quiet act of returning to the pag
 
 For writers, dreamers, and thoughtful creatives, Moss & Moon offers objects to keep close — pieces that bring beauty to the everyday and a little more depth to the moments spent in conversation with yourself.
 
-{% include button.html text="Visit the shop" link="https://mossmoonstationery.etsy.com" color="#05bf85" %} {% include button.html text="Record a thought" link="/flower" color="#2E86AB" %} {% include button.html text="Start your journaling journey" link="https://transformationaljournaling.art" color="#fa407a" %}
+{% include button.html text="Visit the shop" link="https://mossmoonstationery.etsy.com" color="#05bf85" %} {% include button.html text="Share a thought" link="/flower" color="#2E86AB" %} {% include button.html text="Start your journaling journey" link="https://transformationaljournaling.art" color="#fa407a" %}
 
 {% include figure.html image="/assets/notebooks.jpg" %}
