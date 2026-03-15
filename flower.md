@@ -17,4 +17,4 @@ Much love,
 <br>
 Mynah from Moss & Moon
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfkFBLQcfolyxgMXhYAnLc2SxkcvGioN-d2HV2HEF_lNt73g/viewform?embedded=true" width="640" height="1984" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+{% include figure.html image="/assets/flower-cover.jpg" %}
