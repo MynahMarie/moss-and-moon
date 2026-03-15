@@ -5,11 +5,23 @@
       {% include post-related.html %}
     </section>
 
-  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+  {% elsif page.layout == "blog" %}
     <section class="section  section--description">
       <h3>About this site</h3>
       <p>{{ site.description }}</p>
       {% include nav-social.html %}
+    </section>
+
+  {% elsif page.layout == "home" %}
+    <section class="section  section--description">
+      <h3>About this site</h3>
+      <p>{{ site.description }}</p>
+      {% include nav-social.html %}
+    </section>
+  
+  {% elsif page.layout == "page" %}
+    <section class="section  section--description">
+      {% include figure.html image="/assets/flower-cover.jpg" %}
     </section>
 
   {% elsif page.layout == "categories" %}

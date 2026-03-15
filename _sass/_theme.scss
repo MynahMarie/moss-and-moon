@@ -35,6 +35,10 @@ body {
   }
 }
 
+.header {
+  background-color: $footerColour;
+}
+
 .header .nav {
   display: flex;
   flex-direction: column-reverse;
@@ -45,7 +49,7 @@ body {
 
 .feature {
   padding-bottom: .4rem;
-  margin-bottom: 1.6rem;
+  // margin-bottom: 1.6rem;
   text-align: center;
   background: $featureBackgroundColour;
   background-size: cover;
@@ -86,7 +90,7 @@ body {
 }
 
 .footer {
-  background: $headingColour;
+  background: $footerColour;
   color: $captionColour;
   a {
     color: $captionColour;
@@ -123,6 +127,7 @@ body {
   @include flex(1, 0, auto);
   @include justify-content(flex-start);
   margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
   @include breakpoint(break-1) {
     @include justify-content(center);
     @include flex-direction(row);
@@ -150,8 +155,8 @@ body {
     max-width: 34%;
     margin-left: 4%;
     @include flex(1, 0, auto);
-    opacity: 0.5;
-    transition: opacity .1s;
+    // opacity: 0.5;
+    // transition: opacity .1s;
     .section {
       position: sticky;
       top: 0;
@@ -161,9 +166,9 @@ body {
       margin-right: 4%;
       order: -1;
     }
-    &:hover {
-      opacity: 1;
-    }
+    // &:hover {
+    //   opacity: 1;
+    // }
   }
 }
 

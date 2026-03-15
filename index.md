@@ -4,6 +4,7 @@ title: Moss & Moon Stationery
 #   ## Moss & Moon Stationery
 #   Handmade paper goods and zines
 feature_image: "./assets/Notebooks-horiz.jpg"
+aside: true
 # excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
@@ -91,3 +92,11 @@ When using Alembic as a theme means you can take advantage of the file overridin
 To add your own styles copy the [`styles.scss`](https://github.com/daviddarnes/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
 
 If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings. -->
+
+Moss & Moon is a stationery studio devoted to meaningful journaling, slow creativity, and beautiful self-expression. Inspired by vintage textures, nature, and a softly magical atmosphere, it creates paper goods and poetic zines designed to make reflection feel more grounding, personal, and alive.
+
+At its heart, Moss & Moon is about ritual: the quiet act of returning to the page, gathering your thoughts, and making space for your inner world. Through thoughtfully made stationery and intimate printed pieces, it invites introspection, curiosity, and a journaling practice that feels intentional, inspiring, and deeply your own.
+
+For writers, dreamers, and thoughtful creatives, Moss & Moon offers objects to keep close — pieces that bring beauty to the everyday and a little more depth to the moments spent in conversation with yourself.
+
+{% include button.html text="Visit the shop" link="https://mossmoonstationery.etsy.com" color="#05bf85" %} {% include button.html text="Record a thought" link="/flower" color="#2E86AB" %} {% include button.html text="Start your journaling journey" link="https://transformationaljournaling.art" color="#fa407a" %}

@@ -3,5 +3,16 @@ title: false
 styles: true
 ---
 
+// Background colour
+$backgroundColour: #f7f3e3 !default;
+$featureBackgroundColour: #f9fafa !default;
+
+ // Text colours
+$footerColour: #071033 !default;
+$headingColour: #2A1F18 !default;
+$bodyColour: #2A1F18 !default;
+$linkColour: #05bf85 !default;
+$hoverColour: #fa407a !default;
+$focusColour: #fa407a !default;
 
 @import "alembic";
